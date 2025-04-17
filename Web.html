@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>MilkTea Delight - Home</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" href="favicon-96x96.png" type="image/x-icon">
+
+</head>
+<body>
+    <!-- Sidebar Toggle Button -->
+    <div class="sidebar-toggle" id="sidebar-toggle">☰</div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="Web.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <header>
+        <h1>Home</h1>
+        <nav>
+            <ul>
+                <li><a href="Web.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <h2>Welcome to Milktea Delight Advertisement</h2>
+        <p><b>Enjoy the chill music only here in HOME.<br> Just click the Home button.<br>Now playing - Warm Memories.</b></p>
+        <div class="carousel">
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="Milktea1.jpg" alt="MilkTea Image 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="Milktea2.jpg" alt="MilkTea Image 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="Milktea3.jpg" alt="MilkTea Image 3">
+                </div>
+            </div>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </main>
+
+    <audio id="bg-music" loop>
+        <source src="keys-of-moon-warm-memories.mp3" type="audio/mpeg">
+    </audio>
+
+    <footer>
+        <p>&copy; 2024 MilkTea Delight. All rights reserved.</p>
+    </footer>
+
+    <script src="work.js"></script>
+</body>
+</html>
